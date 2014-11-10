@@ -14,6 +14,10 @@
 		E418C9351A112F3E0074F88A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E418C9341A112F3E0074F88A /* Images.xcassets */; };
 		E418C9381A112F3E0074F88A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E418C9361A112F3E0074F88A /* LaunchScreen.xib */; };
 		E418C9441A112F3E0074F88A /* AdaptiveLayoutsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E418C9431A112F3E0074F88A /* AdaptiveLayoutsTests.m */; };
+		E418C9541A113EDC0074F88A /* foto.png in Resources */ = {isa = PBXBuildFile; fileRef = E418C9501A113EDC0074F88A /* foto.png */; };
+		E418C9551A113EDC0074F88A /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = E418C9511A113EDC0074F88A /* heart.png */; };
+		E418C9561A113EDC0074F88A /* instagram.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E418C9521A113EDC0074F88A /* instagram.jpg */; };
+		E418C9571A113EDC0074F88A /* userimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E418C9531A113EDC0074F88A /* userimage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		E418C93D1A112F3E0074F88A /* AdaptiveLayoutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdaptiveLayoutsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E418C9421A112F3E0074F88A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E418C9431A112F3E0074F88A /* AdaptiveLayoutsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdaptiveLayoutsTests.m; sourceTree = "<group>"; };
+		E418C9501A113EDC0074F88A /* foto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foto.png; sourceTree = "<group>"; };
+		E418C9511A113EDC0074F88A /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		E418C9521A113EDC0074F88A /* instagram.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instagram.jpg; sourceTree = "<group>"; };
+		E418C9531A113EDC0074F88A /* userimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = userimage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		E418C9261A112F3E0074F88A /* AdaptiveLayouts */ = {
 			isa = PBXGroup;
 			children = (
+				E418C9581A113EE10074F88A /* images */,
 				E418C92B1A112F3E0074F88A /* AppDelegate.h */,
 				E418C92C1A112F3E0074F88A /* AppDelegate.m */,
 				E418C92E1A112F3E0074F88A /* ViewController.h */,
@@ -117,6 +126,17 @@
 				E418C9421A112F3E0074F88A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E418C9581A113EE10074F88A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E418C9501A113EDC0074F88A /* foto.png */,
+				E418C9511A113EDC0074F88A /* heart.png */,
+				E418C9521A113EDC0074F88A /* instagram.jpg */,
+				E418C9531A113EDC0074F88A /* userimage.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +219,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E418C9561A113EDC0074F88A /* instagram.jpg in Resources */,
 				E418C9331A112F3E0074F88A /* Main.storyboard in Resources */,
 				E418C9381A112F3E0074F88A /* LaunchScreen.xib in Resources */,
+				E418C9571A113EDC0074F88A /* userimage.jpg in Resources */,
+				E418C9551A113EDC0074F88A /* heart.png in Resources */,
 				E418C9351A112F3E0074F88A /* Images.xcassets in Resources */,
+				E418C9541A113EDC0074F88A /* foto.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
